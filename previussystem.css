@@ -6,7 +6,7 @@ body {
 }
 .mainheader1 {
   font-size: large;
-  /* font-weight: bold; */
+  font-weight: bold;
   font-style: normal;
   font-synthesis: style;
   color: #000909;
@@ -844,6 +844,8 @@ form .backBtn i {
 .img_container {
   display: flex;
   justify-content: center;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .mode-choice {
@@ -873,17 +875,20 @@ p {
   width: 65%;
 }
 .third_column {
+  border: 4px solid rgb(195, 213, 228);
+  box-shadow: inset 0 0 7px rgb(127, 185, 234);
   border-radius: 13px;
 }
 .third_column .input_boxx {
-  padding-left: 15%;
+  padding-left: 13%;
+  margin-bottom: 13%;
 }
 .third_column img {
   width: 100%;
 }
 .fourth_column {
   padding-left: 1%;
-  padding-top: 8%;
+  padding-top: 6%;
 }
 .mainmilemode {
   font-family: "Times New Roman";

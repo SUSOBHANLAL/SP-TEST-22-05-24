@@ -15,11 +15,13 @@
       }
       .f_hidden {
         display: none;
+        border: 1px solid #000;
       }
       /* llllllllllllll */
 
       .question-section {
-        border: 1px double #000;
+        border: 1px solid #000;
+        /* Add a border to question sections */
         padding: 10px;
         margin-top: 10px;
       }
@@ -27,6 +29,7 @@
       /* This is for boarder and side by side output*/
       .radio-dropDownSection {
         display: flex;
+        width: calc(100% / 2 - 15px);
       }
 
       .for_b,
@@ -1081,38 +1084,30 @@
           <!--third column-->
           <div class="third_column">
             <img src="bus_stop.png" alt="Your Image" />
-            <p style="text-align: center">
-              Waiting time (in min)
-              <input
-                style="
-                  box-shadow: inset 0 0 7px rgb(127, 185, 234);
-                  border: 1px solid rgb(150, 190, 222);
-                  border-radius: 5px;
-                  padding: 10px;
-                  margin-top: 5%;
-                  width: 70%;
-                "
-                type="number"
-                name="waitingTime"
-                required
-                list="waitingtime2"
-              />
-            </p>
-
-            <datalist id="waitingtime2">
-              <option value="5"></option>
-              <option value="10"></option>
-              <option value="15"></option>
-              <option value="20"></option>
-              <option value="25"></option>
-              <option value="30"></option>
-              <option value="35"></option>
-              <option value="40"></option>
-              <option value="45"></option>
-              <option value="50"></option>
-              <option value="55"></option>
-              <option value="60"></option>
-            </datalist>
+            <div class="text-container">
+              <div class="input_boxx">
+                <input
+                  type="number"
+                  name="waitingTime"
+                  required
+                  list="waitingtime2"
+                />
+                <datalist id="waitingtime2">
+                  <option value="5"></option>
+                  <option value="10"></option>
+                  <option value="15"></option>
+                  <option value="20"></option>
+                  <option value="25"></option>
+                  <option value="30"></option>
+                  <option value="35"></option>
+                  <option value="40"></option>
+                  <option value="45"></option>
+                  <option value="50"></option>
+                  <option value="55"></option>
+                  <option value="60"></option>
+                </datalist>
+              </div>
+            </div>
           </div>
           <!--Fourth column-->
           <div class="fourth_column">
@@ -1165,38 +1160,30 @@
           <!--fifth column-->
           <div class="third_column">
             <img src="bus_stop.png" alt="Your Image" />
-            <p style="text-align: center">
-              Waiting time (in min)
-              <input
-                style="
-                  box-shadow: inset 0 0 7px rgb(127, 185, 234);
-                  border: 1px solid rgb(150, 190, 222);
-                  border-radius: 5px;
-                  padding: 10px;
-                  margin-top: 5%;
-                  width: 70%;
-                "
-                type="number"
-                name="waitingTimeE"
-                required
-                list="waitingtime1"
-              />
-            </p>
-
-            <datalist id="waitingtime1">
-              <option value="5"></option>
-              <option value="10"></option>
-              <option value="15"></option>
-              <option value="20"></option>
-              <option value="25"></option>
-              <option value="30"></option>
-              <option value="35"></option>
-              <option value="40"></option>
-              <option value="45"></option>
-              <option value="50"></option>
-              <option value="55"></option>
-              <option value="60"></option>
-            </datalist>
+            <div class="text-container">
+              <div class="input_boxx">
+                <input
+                  type="number"
+                  name="waitingTimeE"
+                  required
+                  list="waitingtime1"
+                />
+                <datalist id="waitingtime1">
+                  <option value="5"></option>
+                  <option value="10"></option>
+                  <option value="15"></option>
+                  <option value="20"></option>
+                  <option value="25"></option>
+                  <option value="30"></option>
+                  <option value="35"></option>
+                  <option value="40"></option>
+                  <option value="45"></option>
+                  <option value="50"></option>
+                  <option value="55"></option>
+                  <option value="60"></option>
+                </datalist>
+              </div>
+            </div>
           </div>
           <!--six column-->
           <div class="after-left-column">
