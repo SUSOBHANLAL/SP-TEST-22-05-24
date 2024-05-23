@@ -103,7 +103,7 @@
     margin-top: 19%;
   }
   .fourth_column {
-    padding-top: 10.5%;
+    padding-top: 12.9%;
   }
   .fourth_column p {
     text-align: center;
@@ -967,4 +967,6 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
+
+  /* // all the 10 a and 10b questions style  */
 }

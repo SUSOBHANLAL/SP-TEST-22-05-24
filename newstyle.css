@@ -882,7 +882,6 @@ p {
   width: 100%;
 }
 .fourth_column {
-  padding-left: 1%;
   padding-top: 8%;
 }
 .mainmilemode {
@@ -2197,7 +2196,7 @@ input[type="number"] {
 /*+++++++++++++++++end number box ++++++++++++++++ */
 
 /* syle second fforrm */
-.question34 {
+/* .question34 {
   border: 3px solid rgb(195, 213, 228);
   background-color: rgb(192, 216, 237);
   padding-bottom: 2%;
@@ -2240,7 +2239,7 @@ input[type="number"] {
   width: 3%;
 }
 
-/* // this for 11 no of question  */
+
 
 #question11sub1lavel {
   margin-left: 8%;
@@ -2262,19 +2261,24 @@ input[type="number"] {
 #question11sub5lavel {
   margin-left: 6.5%;
   width: 3%;
+} */
+
+.matrixorigintransport-category span {
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  width: 30%;
 }
-/* qustion 13 design is done here  */
 .matrixorigintransport-category {
   display: flex;
-  margin-top: 2%;
+  margin-bottom: 3%;
   margin-left: 1%;
 }
 .matrixorigintransport-category input {
-  margin-left: 7%;
+  margin-left: 8%;
 }
-.question13span {
-  /* background-color: #78dfd5; */
-}
+
 .question13division {
   border: 3px solid rgb(195, 213, 228);
   background-color: rgb(192, 216, 237);
@@ -2283,29 +2287,30 @@ input[type="number"] {
 }
 
 #question13spanlavel1 {
-  margin-left: 52%;
+  margin-left: 8%;
   width: 3%;
 }
 
 #question13spanlavel2 {
-  margin-left: 9%;
+  margin-left: 11%;
   width: 3%;
 }
 
 #question13spanlavel3 {
-  margin-left: 7%;
+  margin-left: 11%;
   width: 3%;
 }
 
 #question13spanlavel4 {
-  margin-left: 8%;
+  margin-left: 10.1%;
   width: 3%;
 }
 
 #question13spanlavel5 {
-  margin-left: 8%;
+  margin-left: 10.1%;
   width: 3%;
 }
+
 .Overallbox {
   margin-top: 2%;
   background-color: #15d8c1;
