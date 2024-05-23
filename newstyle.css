@@ -2019,20 +2019,48 @@ p {
 }
 
 #spSurveyStarted {
-  margin-top: 19%;
-  margin-left: 4%;
   text-align: center;
-  width: 73%;
+  margin-top: 46%;
   background-color: rgba(
     255,
     255,
     255,
     0.2
   ); /* Slightly transparent white background */
-  padding: 20px;
+
   border-radius: 10px;
   box-shadow: 0 -4px 10px rgba(6, 175, 26, 0.5);
 }
+
+/* #spSurveyStarted {
+  margin-top: 19%;
+  margin-left: 4%;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); 
+  border-radius: 10px;
+  box-shadow: 0 -4px 10px rgba(6, 175, 26, 0.5);
+}
+
+#spSurveyStarted {
+  padding: 5px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
 
 #spSurveyStarted h2 {
   font-size: xx-large;
@@ -2196,7 +2224,7 @@ input[type="number"] {
 /*+++++++++++++++++end number box ++++++++++++++++ */
 
 /* syle second fforrm */
-/* .question34 {
+.question34 {
   border: 3px solid rgb(195, 213, 228);
   background-color: rgb(192, 216, 237);
   padding-bottom: 2%;
@@ -2222,46 +2250,44 @@ input[type="number"] {
   width: 3%;
 }
 #question34sub2lavel {
-  margin-left: 7%;
+  margin-left: 8%;
   width: 3%;
 }
 
 #question34sub3lavel {
-  margin-left: 6.5%;
+  margin-left: 7%;
   width: 3%;
 }
 #question34sub4lavel {
-  margin-left: 7%;
+  margin-left: 7.1%;
   width: 3%;
 }
 #question34sub5lavel {
-  margin-left: 7%;
+  margin-left: 7.9%;
   width: 3%;
 }
-
-
 
 #question11sub1lavel {
   margin-left: 8%;
   width: 3%;
 }
 #question11sub2lavel {
-  margin-left: 6.8%;
+  margin-left: 7.6%;
   width: 3%;
 }
 
 #question11sub3lavel {
-  margin-left: 6.7%;
+  margin-left: 7%;
   width: 3%;
 }
 #question11sub4lavel {
-  margin-left: 7.3%;
+  margin-left: 7.5%;
   width: 3%;
 }
 #question11sub5lavel {
-  margin-left: 6.5%;
+  margin-left: 7.6%;
   width: 3%;
-} */
+}
 
 .matrixorigintransport-category span {
   margin-top: 0%;
@@ -2324,4 +2350,8 @@ input[type="number"] {
 .Overallbox .gender-category {
   background-color: #15d8c1;
   border: none;
+}
+
+.Overallbox label {
+  padding-right: 6%;
 }
