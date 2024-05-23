@@ -1272,6 +1272,7 @@ function getUserLocation() {
             ? document.querySelector('input[name="travel_partner"]:checked')
                 .value
             : "";
+
           // const travel_purpose = document.querySelector(
           //   'input[name="travel_purpose"]:checked'
           // )
@@ -1982,6 +1983,11 @@ function getUserLocation() {
             ? document.querySelector('input[name="activityr64"]:checked').value
             : "";
 
+          const genderrnotlisted =
+            document.getElementById("GenderNotSpecified").value;
+          const otherEmployment =
+            document.getElementById("otherEmployment").value;
+
           // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
           // Get the currenQ13
@@ -1990,10 +1996,10 @@ function getUserLocation() {
           // Create an object with the form data, including geolocation data
           const formDataObject = {
             Ename: ename,
-            Gender: gender,
+            Gender: gender === "4" ? genderrnotlisted : gender,
             Age: age,
             Income: income,
-            Employment: employment,
+            Employment: employment === "4" ? otherEmployment : employment,
             Education: education,
             OriginArea: origin_area,
             OriginPin: origin_pin,

@@ -131,7 +131,7 @@
                 <input
                   type="radio"
                   name="gender"
-                  value="Male"
+                  value="1"
                   required
                   onclick="offtextFieldofGendernotListed()"
                 />
@@ -141,7 +141,7 @@
                 <input
                   type="radio"
                   name="gender"
-                  value="Female"
+                  value="2"
                   onclick="offtextFieldofGendernotListed()"
                   required
                 />
@@ -152,7 +152,7 @@
                 <input
                   type="radio"
                   name="gender"
-                  value="Transgender"
+                  value="3"
                   onclick="offtextFieldofGendernotListed()"
                   required
                 />
@@ -163,7 +163,8 @@
                 <input
                   type="radio"
                   name="gender"
-                  value="Gender not listed here ( please specify)"
+                  id="GenderNotlisted"
+                  value="4"
                   onclick="onclickGenderNotSpecified()"
                   required
                 />
@@ -172,7 +173,6 @@
                 >
                 <input
                   type="text"
-                  name="gender"
                   id="GenderNotSpecified"
                   class="hidden"
                   placeholder="Please specify"
@@ -183,7 +183,7 @@
                 <input
                   type="radio"
                   name="gender"
-                  value="Prefer not to say"
+                  value="5"
                   required
                   onclick="offtextFieldofGendernotListed()"
                 />
@@ -253,7 +253,7 @@
                 <input
                   type="radio"
                   name="employment"
-                  value="Self-employed"
+                  value="1"
                   onclick="noOtheremp()"
                   required
                 />
@@ -273,7 +273,7 @@
                 <input
                   type="radio"
                   name="employment"
-                  value="Private"
+                  value="2"
                   required
                   onclick="noOtheremp()"
                 />
@@ -283,7 +283,7 @@
                 <input
                   type="radio"
                   name="employment"
-                  value="Student"
+                  value="3"
                   required
                   onclick="noOtheremp()"
                 />
@@ -293,7 +293,7 @@
                 <input
                   type="radio"
                   name="employment"
-                  value="Other"
+                  value="4"
                   required
                   onclick="otheremp()"
                 />
